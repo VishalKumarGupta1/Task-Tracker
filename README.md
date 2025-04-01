@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# TaskTracker - To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **TaskTracker**, a simple yet powerful To-Do list app built using **React**. Track your tasks, and stay organized. With an intuitive interface, TaskTracker lets you easily add, edit, and delete tasks, making it the perfect app for managing your day-to-day to-dos.
 
-## Available Scripts
+## Features
+- **Add Tasks**: Easily add new tasks with a title and description.
+- **Edit Tasks**: Update your tasks when needed.
+- **Delete Tasks**: Remove tasks you no longer need.
+- **Complete Tasks**: Mark tasks as completed for better task management.
+- **Persistent Data**: Tasks persist even after page reload using `localStorage`.
+- **Responsive Design**: Works seamlessly across mobile and desktop devices.
 
-In the project directory, you can run:
+## Live Demo
+You can see the live version of the app deployed on Netlify:
 
-### `npm start`
+[**TaskTracker Live Demo**](https://tasktracker11.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the project locally, follow these steps:
 
-### `npm test`
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Steps
 
-### `npm run build`
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/VishalKumarGupta1/Task-Tracker.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd Task-Tracker
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Install Dependencies**:
+   Use npm or yarn to install the required dependencies:
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Run the Application**:
+   Start the React development server:
+   ```bash
+   npm start
+   ```
+   or
+   ```bash
+   yarn start
+   ```
 
-### `npm run eject`
+   The app will be available at `http://localhost:3000/` in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How It Works
+- The app allows you to add new tasks by providing a description.
+- The tasks are displayed in a list format, and you can mark them as completed by clicking on the task.
+- Tasks are stored in `localStorage`, ensuring that even after page reloads, your tasks remain intact.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
+- **React** - For building the UI components.
+- **CSS** - For styling the app.
+- **localStorage** - For saving tasks between sessions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## GitHub Repository
+For code, issues, and contribution, visit the GitHub repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[**GitHub Repository**](https://github.com/VishalKumarGupta1/Task-Tracker)
 
-## Learn More
+## Contributing
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add your feature'`).
+4. Push to your branch (`git push origin feature/your-feature`).
+5. Create a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
